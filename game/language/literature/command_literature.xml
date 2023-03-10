@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<fight-options>
+    <fight-option>
+        <label>Ataque melé</label>
+        <description>Ataque cuerpo a cuerpo. Puedes hacerte daño</description>
+        <emoji>⚔️</emoji>
+        <value>MELEE</value>
+    </fight-option>
+    <fight-option>
+        <label>Ataque a distancia</label>
+        <description>Ataca a distancia, desde un lugar seguro</description>
+        <emoji>🏹</emoji>
+        <value>RANGED</value>
+    </fight-option>
+    <fight-option>
+        <label>Ataque mágico</label>
+        <description>Utiliza magia. Puede ser muy inestable</description>
+        <emoji>✨</emoji>
+        <value>MAGIC</value>
+    </fight-option>
+    <fight-option>
+        <label>Milagro</label>
+        <description>Poderes de los dioses antiguos. Sacrificas salud para hacer daño</description>
+        <emoji>🩸</emoji>
+        <value>SACRED</value>
+    </fight-option>
+    <fight-option>
+        <label>Oración</label>
+        <description>Te curas con el </description>
+        <emoji>🙌</emoji>
+        <value>HEALING</value>
+    </fight-option>
+</fight-options>

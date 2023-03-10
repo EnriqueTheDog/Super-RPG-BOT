@@ -9,8 +9,8 @@ from random import randint
 
 class Mob(object):
     # TODO: externalise level in constructor and extract mob grade to config
-    def __init__(self):
-        self.lvl = expo(3, -2)
+    def __init__(self, lvl: int):
+        self.lvl = expo(lvl, -2)
         self.name: Name = gen.mob_name()
         perc: [int] = divide(self.lvl, 50, 80)
         self.damage = perc[0]
